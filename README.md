@@ -36,7 +36,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use the endpoint `[GET] https://swapi.dev/api/people` (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
+- [ ] Use the endpoint `[GET]https://swapi.dev/api/people` import React, { useState, useEffect } from 'react' (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
 - [ ] Set the list of characters into state.
 - [ ] Render your characters to the DOM:
 
@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React JS is a program that allows us to build HTML from our JS making it much easier to interface JS with the HTML and is used for single page applications
+
 1. Describe component state.
+
+an object that holds information that may or may not change over the lifetime of the component.
+
 1. Describe props.
+
+props are arguements that are passed into react components and stand for properties.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are functions that we can build into a component to run when a chage is made to a state to execute the function.
